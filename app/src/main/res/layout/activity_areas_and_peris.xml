@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EEF5DB">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:text="2D Shapes"
+
+                android:textSize="34sp"
+                app:backgroundTint="#F44336"></Button>
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:onClick="sq"
+                android:text="Square"
+                android:textSize="20sp"></Button>
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:onClick="rect"
+                android:text="Rectangle"
+                android:textSize="20sp"></Button>
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:onClick="tri"
+                android:text="Triangle"
+                android:textSize="20sp"></Button>
+
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:onClick="cir"
+                android:text="Circle"
+                android:textSize="20sp"></Button>
+
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:onClick="trap"
+                android:text="Trapezium"
+                android:textSize="20sp"></Button>
+
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:text="3D Shapes"
+
+                android:textSize="34sp"
+                app:backgroundTint="#F44336"></Button>
+
+            <Button
+                android:id="@+id/b9"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:onClick="cub"
+                android:text="Cube"
+                android:textSize="20sp"></Button>
+
+            <Button
+                android:id="@+id/b10"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:onClick="cubo"
+                android:text="Cuboid"
+                android:textSize="20sp"></Button>
+
+            <Button
+                android:id="@+id/b11"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:onClick="sphere"
+                android:text="Sphere"
+                android:textSize="20sp"></Button>
+
+            <Button
+                android:id="@+id/b12"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:onClick="cone"
+                android:text="Cone"
+                android:textSize="20sp"></Button>
+
+            <Button
+                android:id="@+id/b13"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:onClick="cy"
+                android:text="Cylinder"
+                android:textSize="20sp"></Button>
+
+            <Button
+                android:id="@+id/b14"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:onClick="hemis"
+                android:text="Hemisphere"
+                android:textSize="20sp"></Button>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
